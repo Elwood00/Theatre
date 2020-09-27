@@ -1,0 +1,16 @@
+import java.time.LocalDate; // import the LocalDate class
+public class Movie {
+    //Data Fields
+    private String name;
+    private Date releaseDate; //not sure this is right, someone double check me please.
+    private Date receiveDate; //not sure this is right, someone double check me please.
+    private String description;
+    private Enum status; //not sure this is right, someone double check me please.
+    
+    //Constructor
+    public Movie() {}
+    
+    //Methods
+    public String toString(){
+        return name + ", " + releaseDate + ", " + description + ", " + receiveDate + ", " + status;
+    }
